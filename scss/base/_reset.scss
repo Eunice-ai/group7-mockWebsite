@@ -2,12 +2,19 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 /* Prevents font size inflation*/
 html {
   text-size-adjust: none;
+  box-sizing: border-box;
+  font-size: 62.5%; //1 rem = 10px, 10px/16px = 0.625
+}
+
+body {
+  font-family: inter, sans-serif;
+  font-weight: 400;
 }
 
 /* Remove default margin*/
