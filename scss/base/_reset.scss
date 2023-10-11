@@ -1,0 +1,84 @@
+/* Box sizing rules*/
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Prevents font size inflation*/
+html {
+  text-size-adjust: none;
+  box-sizing: border-box;
+  font-size: 62.5%; //1 rem = 10px, 10px/16px = 0.625
+}
+
+body {
+  font-family: inter, sans-serif;
+  font-weight: 400;
+}
+
+/* Remove default margin*/
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles*/
+ul[role="list"],
+ol[role="list"] {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Shorter line heights  */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+/* Balance text-wrapping */
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+/* Make images more easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anchored with extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}

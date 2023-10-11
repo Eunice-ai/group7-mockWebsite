@@ -1,0 +1,22 @@
+<svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon-park-solid:writing-fluently" clip-path="url(#clip0_11_1574)">
+<g id="Mask group">
+<mask id="mask0_11_1574" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="35" height="35">
+<g id="Group">
+<g id="Group_2">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M17.5 17.4998V13.854L28.4375 2.9165L32.0833 6.56234L21.1458 17.4998H17.5Z" fill="white" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M11.667 17.5H6.56283C5.59589 17.5 4.66856 17.8841 3.98483 18.5678C3.30111 19.2516 2.91699 20.1789 2.91699 21.1458C2.91699 22.1128 3.30111 23.0401 3.98483 23.7238C4.66856 24.4076 5.59589 24.7917 6.56283 24.7917H28.4378C29.4048 24.7917 30.3321 25.1758 31.0158 25.8595C31.6995 26.5432 32.0837 27.4706 32.0837 28.4375C32.0837 29.4044 31.6995 30.3318 31.0158 31.0155C30.3321 31.6992 29.4048 32.0833 28.4378 32.0833H13.1253" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</mask>
+<g mask="url(#mask0_11_1574)">
+<path id="Vector_3" d="M0 0H35V35H0V0Z" fill="#303841"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_11_1574">
+<rect width="35" height="35" fill="white"/>
+</clipPath>
+</defs>
+</svg>
