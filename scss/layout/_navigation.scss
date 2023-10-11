@@ -1,0 +1,31 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4rem;
+  }
+
+  &__item {
+    margin: 0 1.5rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-primary;
+    font-size: 1.6rem;
+    font-weight: 400;
+    transition: all 0.2s;
+
+    &:hover {
+      border-bottom: 2px solid $color-primary;
+    }
+  }
+
+  &__button {
+    text-align: center;
+  }
+}
